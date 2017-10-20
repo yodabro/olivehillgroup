@@ -1,0 +1,129 @@
+.theme-color {
+  color: #0a59aa !important;
+}
+.theme-color-bg {
+  background-color: #0a59aa !important;
+}
+/*================================== Elements ==================================*/
+/*================================== Home ==================================*/
+#home .owl-theme .owl-controls .owl-dot.active span {
+  background: #0a59aa;
+}
+.ip-header .ip-logo svg path {
+  fill: #0a59aa;
+}
+.ip-header .ip-loader svg path.ip-loader-circle {
+  stroke: #0a59aa;
+}
+.no-js .ip-header .ip-logo svg path {
+  fill: #0a59aa;
+}
+/*================================== Footer ==================================*/
+.footer-black a:hover {
+  color: #0a59aa;
+}
+/*================================== Button Styles ==================================*/
+.btn-theme {
+  color: #ffffff;
+  border-color: #0a59aa;
+  background-color: #0a59aa;
+}
+.btn-theme:hover,
+.btn-theme:active,
+.btn-theme:focus {
+  color: #ffffff;
+  border-color: #0c6bcc;
+}
+.btn-theme:after,
+.btn-theme:active,
+.btn-theme:focus {
+  background-color: #0c6bcc;
+  color: #ffffff;
+}
+/*================================== Features ==================================*/
+.features3 .icon {
+  background: #0a59aa;
+}
+.features4 .icon {
+  background: #0a59aa;
+}
+.feature-box .circle {
+  background: #0a59aa;
+  color: #ffffff;
+}
+/*================================== Services ==================================*/
+.service-sliderBox:hover {
+  background-color: #0a59aa;
+}
+.service-sliderBox span .fa,
+.service-sliderBox span .icon {
+  color: #0a59aa;
+}
+.hiw-item-icon {
+  background-color: #0a59aa;
+}
+/*================================== Contact / Form ==================================*/
+.contact-form input[type="submit"],
+.notify-me input[type="submit"] {
+  background: #0a59aa;
+}
+.en-portfolio address a:hover {
+  color: #0a59aa;
+}
+/*================================== Pricing Table ==================================*/
+.premium {
+  color: #0a59aa;
+}
+/*==================================  Navigations ==================================*/
+#main-menu > li > a.active {
+  color: #0a59aa;
+}
+.top-nav-collapse .navbar-nav > li.active > a {
+  color: #0a59aa;
+}
+#snav li a:hover,
+#snav li a.active,
+#snav li span {
+  background: #0a59aa;
+}
+@media screen and (max-width: 1024px) {
+  #snav li span {
+    background: none;
+  }
+}
+/*================================== Testimonials ==================================*/
+.testimonials-slider .owl-controls .owl-dot.active span {
+  background: #0a59aa;
+}
+/*================================== Blog ==================================*/
+.blog-body .cbp-l-grid-blog-title:hover {
+  color: #0a59aa;
+}
+/*================================== Twitter ==================================*/
+#twitter .owl-theme .owl-controls .owl-dot.active span,
+#twitter .owl-theme .owl-controls.clickable .owl-dot:hover span {
+  border-color: #0a59aa;
+}
+/*================================== Intro page ==================================*/
+.intro-title span {
+  color: #0a59aa;
+}
+.demoDetails ul li a:hover {
+  color: #0a59aa;
+}
+.img-hover-1 .plus:hover {
+  border: 2px solid #0a59aa;
+  color: #0a59aa;
+}
+/*================================== Ajax Popup ==================================*/
+.member-details .mCS-dark-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+  background-color: #0a59aa;
+}
+.member-details .mfp-close {
+  background: #0a59aa;
+}
+/*================================== Portfolio ==================================*/
+.theme-active .cbp-filter-item.cbp-filter-item-active {
+  color: #0a59aa !important;
+  border-color: #0a59aa !important;
+}

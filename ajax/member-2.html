@@ -1,0 +1,83 @@
+<div class="container">
+	<div class="row">
+        <div id="member-details" class="col-lg-10 col-lg-offset-1">
+            <div class="row">
+            	<button title="Close (Esc)" type="button" class="mfp-close"><i class="ion-ios-close-empty"></i></button>
+                <div class="col-md-5 col-lg-5 no-padding">
+                    <img class="img-responsive" src="images/team/staff-12.jpg" alt="" />
+                </div>
+                <div class="col-md-7 col-lg-7 padd25">
+                    <h3 class="text-uppercase">Andrea Joe</h3>
+                    <p class="lead">Developer</p>
+                    
+                    <ul class="socials-connect">
+                          <li><a title="" href="#" class="page_social"><i class="fa fa-twitter"></i></a></li>
+                          <li><a title="" href="#" class="page_social"><i class="fa fa-envelope"></i></a></li>
+                        </ul>
+                    
+                    <div id="content">
+                    	<p>Aliquam lorem ligula, lacinia nec aliquam et, elementum accumsan dui. Nam id hendrerit neque, nec egestas enim. Sed rhoncus porta sapien ac viverra. nec egestas enim. Sed rhoncus porta sapien ac viverra nec egestas enim. Sed rhoncus porta sapien ac viverra</p>
+                    	
+
+
+
+<!--Progress bar-->
+            
+              <div class="progress-wrapper">
+                <h5>I AM GOOD AT</h5>
+                <div class="skills marT50">
+                  <ul class="skill-bar">
+                    <li class="active progress col-md-5">
+                      <div class="skill-bar-wrap">
+                        <div data-width="80" class="progress-bar text-uppercase" data-name="Branding"></div>
+                      </div>
+                    </li>
+                    <li class="active progress col-md-5">
+                      <div class="skill-bar-wrap">
+                        <div data-width="92" class="progress-bar text-uppercase" data-name="Web Design"></div>
+                      </div>
+                    </li>
+                    <li class="active progress col-md-5">
+                      <div class="skill-bar-wrap">
+                        <div data-width="89" class="progress-bar text-uppercase" data-name="Graphic Design"> </div>
+                      </div>
+                    </li>
+                    <li class="active progress col-md-5">
+                      <div class="skill-bar-wrap">
+                        <div data-width="75" class="progress-bar text-uppercase" data-name="Logo Design"> </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            
+            <!--/ Progress bar-->
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $('.progress-bar').each(function() {
+
+            var $this = $(this);
+            $this.append($('<span class="skill-name">').html($this.data('name')));
+            $this.append($('<span class="percentage">').html($this.data('width') + "%"));
+
+        });
+
+        $('.skill-bar li').each(function() {
+
+            $(this).appear(function() {
+                $(this).css({opacity: 1, left: "0px"});
+                var b = $(this).find(".progress-bar").attr("data-width");
+                $(this).find(".progress-bar").css({
+                    width: b + "%"
+                });
+            });
+        });
+
+</script>

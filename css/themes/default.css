@@ -1,0 +1,121 @@
+.theme-color {
+  color: #a79759 !important;
+}
+.theme-color-bg {
+  background-color: #a79759 !important;
+}
+/*================================== Elements ==================================*/
+/*================================== Home ==================================*/
+#home .owl-theme .owl-controls .owl-dot.active span {
+  background: #a79759;
+}
+.ip-header .ip-logo svg path {
+  fill: #a79759;
+}
+.ip-header .ip-loader svg path.ip-loader-circle {
+  stroke: #a79759;
+}
+.no-js .ip-header .ip-logo svg path {
+  fill: #a79759;
+}
+/*================================== Footer ==================================*/
+.footer-black a:hover {
+  color: #a79759;
+}
+/*================================== Button Styles ==================================*/
+.btn-theme {
+  border-color: #a79759;
+  background-color: #a79759;
+}
+.btn-theme:hover,
+.btn-theme:active,
+.btn-theme:focus {
+  border-color: #b3a670;
+}
+/*================================== Features ==================================*/
+.features3 .icon {
+  background: #a79759;
+}
+.features4 .icon {
+  background: #a79759;
+}
+.feature-box .circle {
+  background: #a79759;
+  color: #ffffff;
+}
+/*================================== Services ==================================*/
+.service-sliderBox:hover {
+  background-color: #a79759;
+}
+.service-sliderBox span .fa,
+.service-sliderBox span .icon {
+  color: #a79759;
+}
+.hiw-item-icon {
+  background-color: #a79759;
+}
+/*================================== Contact / Form ==================================*/
+.contact-form input[type="submit"],
+.notify-me input[type="submit"] {
+  background: #a79759;
+}
+.en-portfolio address a:hover {
+  color: #a79759;
+}
+/*================================== Pricing Table ==================================*/
+.premium {
+  color: #a79759;
+}
+/*==================================  Navigations ==================================*/
+#main-menu > li > a.active {
+  color: #a79759;
+}
+.top-nav-collapse .navbar-nav > li.active > a {
+  color: #a79759;
+}
+#snav li a:hover,
+#snav li a.active,
+#snav li span {
+  background: #a79759;
+}
+@media screen and (max-width: 1024px) {
+  #snav li span {
+    background: none;
+  }
+}
+/*================================== Testimonials ==================================*/
+.testimonials-slider .owl-controls .owl-dot.active span {
+  background: #a79759;
+}
+/*================================== Blog ==================================*/
+.blog-body .cbp-l-grid-blog-title:hover {
+  color: #a79759;
+}
+/*================================== Twitter ==================================*/
+#twitter .owl-theme .owl-controls .owl-dot.active span,
+#twitter .owl-theme .owl-controls.clickable .owl-dot:hover span {
+  border-color: #a79759;
+}
+/*================================== Intro page ==================================*/
+.intro-title span {
+  color: #a79759;
+}
+.demoDetails ul li a:hover {
+  color: #a79759;
+}
+.img-hover-1 .plus:hover {
+  border: 2px solid #a79759;
+  color: #a79759;
+}
+/*================================== Ajax Popup ==================================*/
+.member-details .mCS-dark-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+  background-color: #a79759;
+}
+.member-details .mfp-close {
+  background: #a79759;
+}
+/*================================== Portfolio ==================================*/
+.theme-active .cbp-filter-item.cbp-filter-item-active {
+  color: #a79759 !important;
+  border-color: #a79759 !important;
+}

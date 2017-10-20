@@ -1,0 +1,95 @@
+/*================================== Intro page ==================================*/
+.intro-section {
+  padding: 60px 0;
+}
+.intro-section section {
+  background: #ffffff;
+}
+.intro-section .left-logo {
+  float: left;
+  display: inline-block;
+}
+.intro-section .bdr-btm {
+  border-bottom: 1px solid #eeeeee;
+}
+.bgWrap,
+.bgWrap2 {
+  background: #212121;
+  height: 500px;
+  margin-bottom: 30px;
+}
+.bgWrap2 {
+  height: 300px;
+}
+.intro-title {
+  color: #202020;
+  font-size: 4em;
+}
+.intro-title span {
+  color: #a79759;
+}
+.intro-welcome {
+  color: #212121;
+  font-size: 1.8em;
+  font-weight: 700;
+  margin-top: 40px;
+}
+.intro-text {
+  color: #999999;
+  font-size: 1em;
+  line-height: normal;
+}
+.intro-para {
+  margin: 0 auto 50px;
+  width: 300px;
+}
+.demoDetails {
+  margin-bottom: 50px;
+}
+.demoDetails ul {
+  padding-left: 28px;
+  position: relative;
+}
+.demoDetails ul h5.new{
+  position: relative;
+  display: inline-block; 
+}
+.demoDetails ul h5.new:after{
+      content: 'NEW';
+    position: absolute;
+    left: 0px;
+    top: -13px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #ff0000;
+}
+.demoDetails ul li {
+  margin-bottom: 10px;
+  font-size: .8em;
+  padding-left: 10px;
+}
+.demoDetails ul li i {
+  color: #999999;
+  display: inline-block;
+  width: 15px;
+}
+.demoDetails ul li a {
+  font-weight: bold;
+  font-size: 15px;
+}
+.demoDetails ul li a span {
+  color: #999999;
+  font-weight: normal;
+  font-size: 12px;
+}
+.demoDetails ul li a:hover {
+  color: #a79759;
+}
+.demoDetails ul li a:hover span {
+  color: #999999;
+}
+
+@media screen and (max-width: 768px){
+.bgWrap{ height: 300px; }
+.bgWrap .item{ height: 300px;}
+}
