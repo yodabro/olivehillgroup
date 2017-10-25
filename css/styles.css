@@ -765,7 +765,7 @@ padding:0 25px!important
 }
 /*Feature 5*/
 .features5 {
-	margin:50px 0 50px;
+	margin:30px 0 50px;
 }
 .features5 .icon span {
 	padding:12px 10px;
@@ -3273,4 +3273,9 @@ width: 25px;
 .news {
 	font-weight: bold;
 	color: #a79759;
+}
+.table {
+overflow-x:scroll;
+overflow-y:visible;
+width:100%;
 }
