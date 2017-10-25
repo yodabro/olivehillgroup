@@ -661,8 +661,8 @@ btn-dark:focus {
 .features3 .data p,
 .features5 .data p,
 .features4 .data p {
-  font-size: 13px;
-  line-height: 22px;
+  font-size: 12px;
+  line-height: 18px;
 }
 .features .data h5,
 .features5 .data h5,
@@ -707,7 +707,7 @@ btn-dark:focus {
   color: #ffffff;
 }
 .features5 .data h4 {
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 600;
 }
 .feature-block h4 {
