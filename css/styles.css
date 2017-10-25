@@ -3274,8 +3274,15 @@ width: 25px;
 	font-weight: bold;
 	color: #a79759;
 }
-.table {
-overflow-x:scroll;
-overflow-y:visible;
-width:100%;
+.news-scroll{
+	right: 0;
+	top: 0;
+	left: 0;
+	max-height: calc(100vh - 100px);
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
+}
+.news-column{
+	display: flex;
+	flex-direction: column;
 }
