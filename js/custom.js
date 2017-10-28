@@ -439,7 +439,6 @@
             event.preventDefault();
         });
 
-        $('#home').css({'height': windowHeight + 'px'});
 
 
       /*----------------------------------------------------*/
@@ -707,10 +706,6 @@
                 });
             }
         }
-
-      $('#home').css({'height': windowHeight + 'px'});
-
-
 
 
     }); // End on window resize
@@ -1009,5 +1004,12 @@
         contain: true,
         pageDots: false
       });
-}
+    }
+    if ($('.homeCarousel').length) {
+      $('.homeCarousel').flickity({
+        autoPlay: 3000,
+        setGallerySize: false,
+        wrapAround: true
+      })
+    }
 })(jQuery);
