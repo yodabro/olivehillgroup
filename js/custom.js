@@ -1001,3 +1001,13 @@
 
 
 })(jQuery);
+(function($) {
+    'use strict';
+    if ($('.news-scroll').length) {
+      $('.news-scroll').flickity({
+        cellAlign: 'left',
+        contain: true,
+        pageDots: false
+      });
+}
+})(jQuery);
