@@ -617,11 +617,12 @@ Footer Styles
 }
 ul.footer-socials {
 	display:inline-block!important;
+	float: right;
 }
 ul.footer-socials li {
-	float:left;
+	float:right;
 	list-style:none;
-	padding:0
+	margin-right: 60px;
 }
 .foo_social {
 	display:inline-block;
@@ -3332,4 +3333,42 @@ width: 25px;
 .footer-logo{
 	height: 70px;
 	width: auto;
+	float: left;
+	margin-top: 10px;
+}
+tbody{
+	display:flex;
+	flex-direction: row;
+}
+table{
+	display: table;
+	color: #FFF;
+}
+tr{
+	display: table-row;
+	vertical-align: inherit;
+	border-color: inherit;
+	width: 200px;
+	margin-left: 160px;
+}
+td{
+	vertical-align: top;
+	text-align: left;
+	font-size: 12px;
+	letter-spacing: 0.1em;
+}
+.company{
+	width: 25%;
+}
+.contact{
+	width: 25%;
+}
+.comp{
+	margin-left: 250px;
+}
+.cont{
+	margin-left: 60px;
+}
+.foot-header{
+	color: #FFF;
 }
