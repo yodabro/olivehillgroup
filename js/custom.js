@@ -1010,6 +1010,23 @@
         autoPlay: 3000,
         setGallerySize: false,
         wrapAround: true
-      })
+      });
     }
+    if ($('.lightbox-trigger').length) {
+      $('.lightbox-trigger').on('click', function (e) {
+        e.preventDefault();
+        var sliderNumber = $(e.target).closest('.lightbox-trigger').data('slider');
+        var $sliderContainer = $('.slider-container-' + sliderNumber);
+        $sliderContainer.addClass('open');
+        $('.slider-' + sliderNumber).flickity({
+          contain: true,
+          lazyLoad: true,
+          setGallerySize: false
+        });
+      });
+    }
+    $(document).on('click', '.cbp-popup-close', function (e) {
+      e.preventDefault();
+      $('.portfolio-slider').removeClass('open');
+    })
 })(jQuery);

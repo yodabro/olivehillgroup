@@ -275,7 +275,7 @@ Title Styles
 	margin-bottom:20px;
 }
 .title-style-2 .title-2 h2 {
-	margin-bottom: 0;
+	margin-bottom: 30px;
 }
 .title-style-3 {
 	position:relative;
@@ -383,8 +383,8 @@ padding:0 20px;
 	margin-left: 80px;
 }
 .en-creative #about-us .row-padding {
-	padding-top:80px;
-	padding-bottom:80px;
+	padding-top:50px;
+	padding-bottom:20px;
 }
 /*==================================
 Home Style 1
@@ -3291,9 +3291,45 @@ width: 25px;
 	font-weight: bold;
 	color: #a79759;
 }
-.news-scroll {
+.news-head{
+	margin-top: 20px;
 }
 .news-scroll .data {
 	width: 33.33333333%;
 	padding: 0 15px;
+}
+.portfolio-slider {
+	display: none;
+}
+.portfolio-slider.open {
+	display: block;
+}
+.portfolio-slider .slider {
+	width: 100vw;
+	height: 100vh;
+}
+.portfolio-slider .slider .slide {
+	width: 90%;
+	height: 90%;
+	max-width: 1000px;
+	max-height: 1000px;
+	overflow: hidden;
+	position: relative;
+}
+.portfolio-slider .slider .slide img {
+	max-height: 100%;
+	max-width: 100%;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+.blurb {
+	font-size: 14px;
+    letter-spacing: 0.03em;
+    font-weight: normal;
+    margin: 30px;
+}
+.footer-logo{
+	height: 70px;
+	width: auto;
 }

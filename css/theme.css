@@ -156,7 +156,7 @@ h5 {
 }
 p {
   color: #505050;
-  font: 400 16px/34px 'Raleway', sans-serif;
+  font: 400 14px/29px 'Raleway', sans-serif;
   letter-spacing: .1em;
 }
 p.sm {
@@ -337,12 +337,12 @@ a:hover {
 }
 /*================================== Footer ==================================*/
 .copyright {
-  color: #000000;
+  color: #FFF;
   font-weight: 400;
 }
 .copyright a,
 .foo_social {
-  color: #000000;
+  color: #FFF;
 }
 .copyright a:hover,
 .foo_social:hover {
@@ -362,7 +362,7 @@ a:hover {
   font-size: 20px;
 }
 .footer-black {
-  background: #FFFFFF;
+  background: #a79759;
 }
 .footer-black a:hover {
   color: #a79759;
@@ -1022,6 +1022,7 @@ figure.effect-milo.green figcaption {
 .service-sliderBox,
 .service-sliderBox-img {
   box-shadow: -1px 1px 5px rgba(33, 33, 33, 0.1);
+  height: 619px;
 }
 /*================================== Box li ==================================*/
 .boxListing li {
