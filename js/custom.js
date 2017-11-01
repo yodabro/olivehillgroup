@@ -1021,7 +1021,8 @@
         $('.slider-' + sliderNumber).flickity({
           contain: true,
           lazyLoad: true,
-          setGallerySize: false
+          setGallerySize: false,
+          cellAlign: 'center'
         });
       });
     }
