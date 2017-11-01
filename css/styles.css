@@ -604,6 +604,7 @@ Home Style 3
 Footer Styles
 ==================================*/
 #page_footer {
+	margin-top: 10px;
 	padding:20px 0;
 	width:100%;
 	position:relative;
@@ -3382,4 +3383,7 @@ td{
 }
 .foot-header{
 	color: #FFF;
+}
+.email1{
+	color: black;
 }
